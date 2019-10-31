@@ -1,0 +1,18 @@
+         <p class="the_one">todo items for the day</p>
+
+<div align="center" class="dashboard">
+	<div *ngIf="!isEditMode()">
+	<app-todo-list><button class="two"></button></app-todo-list>
+	</div>
+	
+	<div *ngIf="!isEditMode()" class="btn_box_add_new">
+		<button class="one"><a class="btn btn-primary" style="width: 100%;" (click)="toEditMode()">
+		  Create ToDo Items
+		</a></button>
+	</div>
+ 
+	<div *ngIf="isEditMode()">
+		<app-new-todo-item></app-new-todo-item>
+	</div>
+
+</div>

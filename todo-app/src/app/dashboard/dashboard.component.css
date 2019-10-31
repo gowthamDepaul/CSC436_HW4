@@ -1,0 +1,17 @@
+.one{
+background-color: rgb(238, 118, 202);
+border: 1px solid rgba(12, 12, 12, 0.705);
+padding: 4px 12px;
+color: black;
+font-size: 12px;
+ }
+ .the_one{
+    font-family: Arial;
+    color: rgba(3, 3, 3, 0.815);
+    font-size: 17px;
+    position: absolute;
+    top: 3%;
+    left: 20.5%;
+    font-weight: bold;
+ }
+

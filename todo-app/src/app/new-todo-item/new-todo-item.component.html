@@ -1,0 +1,12 @@
+<div align="center" class="new_task_form">
+	<div class="form-group">
+		<br>
+	    Enter your TO-DO Item<br><br>
+	    
+	    <input [(ngModel)]='myTask.description' name='description' type='text' class='form-control' placeholder='Enter items to do' required style="width: 40%;">
+	    <button class="btn btn-primary" (click)="submit()">submit</button>
+	    <br>
+	</div>
+	<br>
+	{{myTask.description}}
+</div>

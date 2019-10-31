@@ -1,0 +1,20 @@
+<div class="card" style="width:300px;">
+	<div class="card-body">
+		<ul>
+	  <p class="card-text"><li>{{task.description}}</li></p>
+	</ul>
+	  <button class="is-urgent"><a href="#" class="btn relative_left" [ngClass]="{'btn-danger':dueDate==dueDateEnum.Urgent, 'btn-default':dueDate!=dueDateEnum.Urgent}" 
+  		(click)="setUrgent()">urgent</a></button>
+		  <button class="is-days"><a href="#" class="btn relative_left" [ngClass]="{'btn-warning':dueDate==dueDateEnum.Days, 'btn-default':dueDate!=dueDateEnum.Days}"
+  		(click)="setDays()">days</a></button>
+		  <button class="is-week"><a href="#" class="btn relative_left" [ngClass]="{'btn-success':dueDate==dueDateEnum.Week, 'btn-default':dueDate!=dueDateEnum.Week}" 
+  		(click)="setWeek()">week</a></button>
+      <button class='btn_btn-danger' (click)='deleteTask(task)' style="
+	  	position: relative;
+      top:-1px;
+  		left:10px;">
+        Delete
+</button>
+
+	</div>
+</div>

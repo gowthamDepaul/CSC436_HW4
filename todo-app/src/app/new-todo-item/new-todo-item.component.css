@@ -1,0 +1,23 @@
+.new_task_form
+{
+	border: 2px solid yellowgreen;
+	border-radius: 5px;
+	width: 250px;
+	margin: auto;
+}
+.form_group{
+	color:yellow;
+	
+}
+.btn btn-primary{
+	background-color: rgb(238, 226, 118);
+	border: 1px solid rgba(12, 12, 12, 0.705);
+	border-radius: 8px;
+	color: black;
+	font-size: 12px;
+	height: 250x;
+	padding: 4px 10px;
+	position:absolute;
+	transition: .5s ease;
+	left: 25%;   
+}
